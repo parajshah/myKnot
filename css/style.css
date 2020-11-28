@@ -23,10 +23,6 @@ body {
   transition: background-color 500ms linear;
 }
 
-.nav-item {
-  float: right;
-}
-
 /* -----------------------------------------------
 					CAROUSEL
 -------------------------------------------------- */
@@ -53,32 +49,42 @@ body {
   height: 100vh;
 }
 
-/* -----------------------------------------------
-					SERVICES
--------------------------------------------------- */
-
-.marketing .col-md-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.marketing h2 {
-  font-weight: 400;
-}
-
-.marketing h1 {
-  font-weight: 500;
-}
-
-.marketing .col-md-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-}
-
 @media (min-width: 40em) {
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
   }
+}
+
+/* -----------------------------------------------
+					SERVICES
+-------------------------------------------------- */
+
+.services h1 {
+  font-weight: 500;
+}
+
+.services .col-md-6 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.services h2 {
+  font-weight: 400;
+}
+
+.services .col-md-6,
+.services .col-lg-3 {
+  transition: 0.5s;
+}
+
+.services .col-md-6:hover,
+.services .col-lg-3:hover {
+  transform: translateY(-10px);
+}
+
+.services .col-md-6 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
