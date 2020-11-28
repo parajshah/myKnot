@@ -6,7 +6,25 @@ html {
 body {
   padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
+  color: #111111;
+  font-family: "Poppins", sans-serif;
+}
+
+/* -----------------------------------------------
+					NAVBAR
+-------------------------------------------------- */
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar.scrolled {
+  background-color: #ffffff !important;
+  transition: background-color 500ms linear;
+}
+
+.nav-item {
+  float: right;
 }
 
 /* -----------------------------------------------
@@ -46,6 +64,10 @@ body {
 
 .marketing h2 {
   font-weight: 400;
+}
+
+.marketing h1 {
+  font-weight: 500;
 }
 
 .marketing .col-md-4 p {
