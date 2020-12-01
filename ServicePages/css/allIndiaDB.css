@@ -1,4 +1,9 @@
+* {
+  margin: 0px;
+}
+
 /* Smooth Scroll */
+
 html {
   scroll-behavior: smooth;
 }
@@ -15,6 +20,18 @@ body {
 
 .navbar {
   background-color: #ffffff;
+}
+#navbar1 {
+  border-bottom: 1px solid whitesmoke;
+}
+/* -----------------------------------------------
+					VIDEO
+-------------------------------------------------- */
+#video1 {
+  box-shadow: 2px 2px 10px 1px black;
+  width: 100%;
+  max-width: 80%;
+  height: auto;
 }
 
 /* -----------------------------------------------
@@ -50,56 +67,56 @@ body {
     line-height: 1.4;
   }
 }
-
-/* -----------------------------------------------
-					ABOUT
--------------------------------------------------- */
-
-#about.about-box {
-  padding: 10% 0 0 0;
+@media (max-width: 540px) {
+  #byeNow {
+    margin-bottom: 2vmin;
+  }
 }
 
 /* -----------------------------------------------
-					SERVICES
+					service
 -------------------------------------------------- */
 
-.services h1 {
+.service h1 {
   font-weight: 500;
-  padding: 10% 0 0 0;
 }
 
-.services .col-md-6 {
+.service .col-md-6 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.services h2 {
+.service h2 {
   font-weight: 400;
 }
 
-.services .col-md-12,
-.services .col-md-6 {
+.service .col-md-12,
+.service .col-md-6 {
   transition: 0.5s;
 }
 
-.services .col-md-12:hover,
-.services .col-md-6:hover {
+.service .col-md-12:hover,
+.service .col-md-6:hover {
   transform: translateY(-10px);
 }
 
-.services .col-md-6 p {
+.service .col-md-6 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
 
 /*------------------------------------------------------------------
-         FOOTER
+    Footer
 -------------------------------------------------------------------*/
 
 .footer-area {
   padding-top: 50px;
 }
-
+#footer1 {
+  height: 20px;
+  margin-right: -118px;
+  margin-left: -120px;
+}
 .bg-f {
   background-color: #111111;
 }
@@ -190,4 +207,17 @@ body {
 .copyright p,
 .copyright p a {
   color: #ffffff;
+}
+
+/* -----------------------------------------------
+					Slider
+-------------------------------------------------- */
+#category {
+  background-image: linear-gradient(to bottom, rgb(168, 168, 235), white);
+}
+#slider {
+  background-color: whitesmoke;
+}
+#more {
+  display: none;
 }
