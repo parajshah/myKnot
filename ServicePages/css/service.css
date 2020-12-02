@@ -1,9 +1,4 @@
-* {
-  margin: 0px;
-}
-
 /* Smooth Scroll */
-
 html {
   scroll-behavior: smooth;
 }
@@ -21,9 +16,7 @@ body {
 .navbar {
   background-color: #ffffff;
 }
-#navbar1 {
-  border-bottom: 1px solid whitesmoke;
-}
+
 /* -----------------------------------------------
 					VIDEO
 -------------------------------------------------- */
@@ -67,6 +60,7 @@ body {
     line-height: 1.4;
   }
 }
+
 @media (max-width: 540px) {
   #buyNow {
     margin-bottom: 2vmin;
@@ -74,49 +68,53 @@ body {
 }
 
 /* -----------------------------------------------
-					service
+					ABOUT
 -------------------------------------------------- */
 
-.service h1 {
+#about.about-box {
+  padding: 10% 0 0 0;
+}
+
+/* -----------------------------------------------
+					SERVICES
+-------------------------------------------------- */
+
+.services h1 {
   font-weight: 500;
 }
 
-.service .col-md-6 {
+.services .col-md-6 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 
-.service h2 {
+.services h2 {
   font-weight: 400;
 }
 
-.service .col-md-12,
-.service .col-md-6 {
+.services .col-md-12,
+.services .col-md-6 {
   transition: 0.5s;
 }
 
-.service .col-md-12:hover,
-.service .col-md-6:hover {
+.services .col-md-12:hover,
+.services .col-md-6:hover {
   transform: translateY(-10px);
 }
 
-.service .col-md-6 p {
+.services .col-md-6 p {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
 }
 
 /*------------------------------------------------------------------
-    Footer
+         FOOTER
 -------------------------------------------------------------------*/
 
 .footer-area {
   padding-top: 50px;
 }
-#footer1 {
-  height: 20px;
-  margin-right: -118px;
-  margin-left: -120px;
-}
+
 .bg-f {
   background-color: #111111;
 }
@@ -223,8 +221,8 @@ body {
 }
 
 /* Responsive Logo for service page*/
-#logo{
-  width:100%;
-  max-width:50%;
+#logo {
+  width: 100%;
+  max-width: 50%;
   height: auto;
 }
